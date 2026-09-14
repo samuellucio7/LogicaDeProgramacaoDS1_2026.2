@@ -1,2 +1,7 @@
 print("samuel lúcio")
-print("ola mundo!")
+print ("ola mundo ")
+nome = input("digite seu nome")
+dia = input ("digite o dia do nascimento")
+mes = input ("digite o mes de nascimento")
+ano = input ("digite o ano de nascimento")
+print (f"seu nome é {nome}")
