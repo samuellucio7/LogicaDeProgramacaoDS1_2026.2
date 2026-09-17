@@ -10,7 +10,7 @@ Crie um programa que:
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
-valor_total_consumido=float(input("digite a quantidade consumidOR$"))
-taxa_garcon= valor_total_consumido * 0.10
-valor_total= valor_total_consumido + taxa_garcon
-print=(f"valor total é{valor_total:.2f}") 
+valor_consumido=float(input("qual valor total consumido consumido ?"))
+taxa_garcom=float(valor_consumido * 0.10)
+valor_total_taxa=float(valor_consumido + taxa_garcom)
+print(f"o valor da conta deu {valor_total_taxa}")
