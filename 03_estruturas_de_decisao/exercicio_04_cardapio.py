@@ -15,3 +15,24 @@ Calcule e mostre o total a pagar.
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+
+codigo_item=float(input("digite o codigo"))
+consumido=float(input("digite a quantidade consumida"))
+if codigo_item==1:
+    preco_total=(consumido)*4
+    print(f"valor total R${preco_total}")
+elif codigo_item==2:
+    preco_total=(consumido)*4.50
+    print(f"valor total R${preco_total}")
+elif codigo_item==3:
+    preco_total=(consumido)*5
+    print(f"valor total R${preco_total}")
+elif codigo_item==4:
+    preco_total=(consumido)*2
+    print(f"valor total R${preco_total}")
+elif codigo_item==5:
+    preco_total=(consumido)*1.50
+    print(f"valor total R${preco_total}")
+
+
+
