@@ -18,6 +18,6 @@ delta=b**2-4*a*c
 if delta>=0:
     raizx1=(-b+math.sqrt(delta))/(2*a)
     raizx2=(-b-math.sqrt(delta))/(2*a)
-    print(f"as raizes são {raizx1} e {raizx2}")
+    print(f"as raizes são {raizx1 :.5f} e {raizx2 :.5f}")
 else:
     print("impossivel de calcular")
