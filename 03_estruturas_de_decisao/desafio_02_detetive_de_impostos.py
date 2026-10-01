@@ -21,3 +21,17 @@ SUA MISSÃO:
 #     taxa = faturamento * 0.15
 
 # TODO: Escreva aqui a versão corrigida:
+from types import FrameType
+
+
+faturamento= float(input("informe o faturamento anual "))
+if faturamento > 0 and faturamento <=50000:
+    taxa= faturamento*0.05
+    print(f"a taxa é igual a {taxa}")
+elif faturamento> 50000 and faturamento <=100000:
+    taxa=faturamento*0.10
+    print(f"a taxa é igual a {taxa}")
+elif faturamento > 100000:
+    taxa=faturamento * 0.15
+    print(f"a taxa é igual a {taxa}")
+    
