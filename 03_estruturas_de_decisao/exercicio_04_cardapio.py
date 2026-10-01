@@ -33,6 +33,8 @@ elif codigo_item==4:
 elif codigo_item==5:
     preco_total=(consumido)*1.50
     print(f"valor total R${preco_total}")
+else:
+    print("codigo invalido")
 
 
 
