@@ -15,5 +15,5 @@ for i in range(5):
 
     if numero % 2 == 0:
         contador += 1
-        print("quantidade de numeros pares:", contador)
+print(f"quantidade de numeros pares {contador}")
 
